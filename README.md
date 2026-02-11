@@ -8,7 +8,7 @@ This system transforms raw transactional data into structured churn explanations
 
 ---
 
-## 🚩 Problem
+## Problem
 
 Payment processors can predict which merchants are likely to churn, but risk scores alone are not actionable.
 
@@ -22,7 +22,7 @@ Manually interpreting metrics such as volume decline, pricing changes, chargebac
 
 ---
 
-## 💡 Solution
+## Solution
 
 This repository implements an AI-powered enrichment layer that:
 
@@ -41,7 +41,7 @@ The system bridges predictive ML outputs with operational execution.
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 MongoDB (merchant_data)
 → match merchant_id + term_date
@@ -54,7 +54,7 @@ MongoDB (merchant_data)
 
 ---
 
-## 🔎 Key Engineering Decisions
+## Key Engineering Decisions
 
 ### 1️⃣ Cost Control
 
