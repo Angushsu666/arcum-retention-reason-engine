@@ -1,0 +1,12 @@
+cat > .gitignore << 'EOF'
+# Secrets
+.env
+
+# macOS
+.DS_Store
+
+# Python
+venv/
+__pycache__/
+*.pyc
+EOF
